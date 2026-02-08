@@ -580,3 +580,148 @@ body {
     position: relative;
     z-index: 2;
 }
+
+/* Стили для карточек категорий на главной */
+.category-card.men {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.category-card.men:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(78, 205, 196, 0.3);
+}
+
+.category-card.women {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.category-card.women:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(255, 107, 107, 0.3);
+}
+
+.category-card.special {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.category-card.special:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(255, 209, 102, 0.3);
+}
+
+/* Эффект наложения цвета при наведении */
+.category-card.men::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(78, 205, 196, 0.2), transparent);
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 1;
+}
+
+.category-card.men:hover::before {
+    opacity: 1;
+}
+
+.category-card.women::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), transparent);
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 1;
+}
+
+.category-card.women:hover::before {
+    opacity: 1;
+}
+
+.category-card.special::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 209, 102, 0.2), rgba(255, 107, 107, 0.2));
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 1;
+}
+
+.category-card.special:hover::before {
+    opacity: 1;
+}
+
+/* Текст поверх фона */
+.category-card h3,
+.category-card p,
+.category-card .category-link {
+    position: relative;
+    z-index: 2;
+}
+
+/* Анимированные градиенты для фона */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.category-hero {
+    animation: gradientShift 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+.category-page.men-page .category-hero {
+    background: linear-gradient(-45deg, 
+        rgba(0, 0, 0, 0.9), 
+        rgba(20, 30, 48, 0.9),
+        rgba(36, 59, 85, 0.9),
+        rgba(0, 0, 0, 0.9)),
+        url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+}
+
+.category-page.women-page .category-hero {
+    background: linear-gradient(-45deg, 
+        rgba(0, 0, 0, 0.9), 
+        rgba(80, 10, 40, 0.9),
+        rgba(150, 40, 80, 0.9),
+        rgba(0, 0, 0, 0.9)),
+        url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+}
+
+.category-page.special-page .category-hero {
+    background: linear-gradient(-45deg, 
+        rgba(0, 0, 0, 0.9), 
+        rgba(100, 60, 20, 0.9),
+        rgba(200, 100, 50, 0.9),
+        rgba(0, 0, 0, 0.9)),
+        url('https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+}

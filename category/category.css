@@ -1,25 +1,28 @@
-/* category.css - Стили для страниц категорий */
-
-/* Уникальный фон для каждой категории */
+/* МУЖСКИЕ - спортивные, технологичные кроссовки */
 .category-page.men-page .category-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
+                url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
     background-size: cover;
-    background-position: center;
+    background-position: center 30%;
+    background-attachment: fixed; /* Параллакс-эффект */
 }
 
+/* ЖЕНСКИЕ - стильные, лёгкие кроссовки */
 .category-page.women-page .category-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
                 url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
     background-size: cover;
-    background-position: center;
+    background-position: center 40%;
+    background-attachment: fixed;
 }
 
-.category-page.kids-page .category-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+/* ИНТЕРЕСНЫЕ МОДЕЛИ - креативные, уникальные */
+.category-page.special-page .category-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
+                url('https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
     background-size: cover;
-    background-position: center;
+    background-position: center 35%;
+    background-attachment: fixed;
 }
 
 /* Герой-баннер категории */
