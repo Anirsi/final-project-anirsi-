@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEAKER HUB | Магазин кроссовок</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-shoe-prints"></i>
+                <span class="logo-text">SNEAKER<span class="logo-accent">HUB</span></span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-link active">Главная</a>
+                <a href="#" class="nav-link">Мужчины</a>
+                <a href="#" class="nav-link">Женщины</a>
+                <a href="#" class="nav-link">Интересные модели</a>
+                <a href="#" class="nav-link">Новинки</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Найти кроссовки...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button class="btn-login"><i class="fas fa-user"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой-баннер -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1 class="hero-title">ПОГОНЯ ЗА СТИЛЕМ</h1>
+            <p class="hero-subtitle">Доказательство технологий. Бег начинается здесь.</p>
+            <a href="#catalog" class="btn-hero">Смотреть коллекцию</a>
+        </div>
+    </section>
+
+   <!-- Категории -->
+<section class="categories">
+    <div class="container">
+        <h2 class="section-title">Выберите категорию</h2>
+        <div class="categories-grid">
+            <a href="men.html" class="category-card men" style="text-decoration: none;">
+                <h3>Мужчины</h3>
+                <p>Сила и скорость</p>
+                <div class="category-link">
+                    Смотреть коллекцию <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+            <a href="women.html" class="category-card women" style="text-decoration: none;">
+                <h3>Женщины</h3>
+                <p>Лёгкость и стиль</p>
+                <div class="category-link">
+                    Смотреть коллекцию <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+           <a href="special.html" class="category-card special" style="text-decoration: none;">
+              <h3>Интересные модели</h3>
+              <p>Эксклюзив и уникальность</p>
+              <div class="category-link">
+                  Смотреть коллекцию <i class="fas fa-arrow-right"></i>
+    </div>
+</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Популярные товары -->
+    <section class="featured" id="catalog">
+        <div class="container">
+            <h2 class="section-title">Популярные модели</h2>
+            <div class="products-grid" id="products-container">
+                <!-- Карточки товаров будут вставлены через JS -->
+            </div>
+            <div class="center">
+                <button class="btn-show-all" id="show-all-btn">Показать все товары (40+)</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Липкая корзина -->
+    <div class="cart-icon-sticky" id="cart-sticky">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count" id="cart-count">0</span>
+    </div>
+
+    <!-- Модальное окно корзины -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-modal-content">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-bag"></i> Ваша корзина</h3>
+                <button class="close-cart" id="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Товары в корзине -->
+                <p class="empty-cart-msg">Корзина пуста</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Итого:</span>
+                    <span id="cart-total-price">0 ₽</span>
+                </div>
+                <button class="btn-checkout" id="checkout-btn">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 SNEAKER HUB. Все права на бренды принадлежат их правообладателям.</p>
+            <p>Проект создан для учебных целей.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

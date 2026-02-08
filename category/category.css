@@ -1,0 +1,313 @@
+/* category.css - Стили для страниц категорий */
+
+/* Уникальный фон для каждой категории */
+.category-page.men-page .category-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.category-page.women-page .category-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.category-page.kids-page .category-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Герой-баннер категории */
+.category-hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    position: relative;
+}
+
+.hero-overlay {
+    max-width: 800px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.category-hero .hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.category-hero .hero-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Статистика в герое */
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #4ecdc4;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* Заголовок категории */
+.category-products {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.category-header h2 {
+    font-size: 2.8rem;
+    color: #111;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#category-icon {
+    color: #ff6b6b;
+}
+
+.category-description {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Сетка товаров на странице категории */
+.category-products .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+/* Карточка товара на странице категории */
+.category-products .product-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+    position: relative;
+}
+
+.category-products .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.category-products .product-img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-products .product-info {
+    padding: 25px;
+}
+
+.category-products .product-title {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #111;
+    height: 3em;
+    overflow: hidden;
+}
+
+.category-products .product-category {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.category-products .product-price {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.category-products .product-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.category-products .btn-details,
+.category-products .btn-add {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.category-products .btn-details {
+    background: #f1f1f1;
+    color: #555;
+}
+
+.category-products .btn-details:hover {
+    background: #e0e0e0;
+}
+
+.category-products .btn-add {
+    background: #4ecdc4;
+    color: white;
+}
+
+.category-products .btn-add:hover {
+    background: #3dbdb4;
+}
+
+/* Кнопка в каталог */
+.category-actions {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 2px solid #eee;
+}
+
+.btn-catalog {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 40px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+}
+
+.btn-catalog:hover {
+    background: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .category-hero {
+        height: 50vh;
+    }
+    
+    .category-hero .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .category-header h2 {
+        font-size: 2.2rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .category-products .products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    
+    .btn-catalog {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Для страницы "Интересные модели" */
+.category-page.special-page .category-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Специальный стиль для карточек в "интересных моделях" */
+.special-page .product-card {
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(135deg, #ffd166, #ff6b6b) border-box;
+}
+
+.special-page .product-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(255, 209, 102, 0.2);
+}
+
+/* Бейдж "эксклюзив" */
+.special-page .product-card::before {
+    content: 'ЭКСКЛЮЗИВ';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(135deg, #ffd166, #ff6b6b);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 2;
+}

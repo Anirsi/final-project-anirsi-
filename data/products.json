@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max 270",
+    "price": 12999,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Мужчины",
+    "description": "Кроссовки с максимальной амортизацией для повседневной носки."
+  },
+  {
+    "id": 2,
+    "name": "Nike Blazer Mid",
+    "price": 10999,
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Женщины",
+    "description": "Классический стиль с современным комфортом и поддержкой."
+  },
+  {
+    "id": 3,
+    "name": "Nike Joyride Run",
+    "price": 14999,
+    "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Мужчины",
+    "description": "Инновационные шарики для индивидуальной амортизации."
+  },
+  {
+    "id": 4,
+    "name": "Nike Air Force 1",
+    "price": 11999,
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Женщины",
+    "description": "Культовая модель для улицы с усиленной подошвой."
+  },
+  {
+    "id": 5,
+    "name": "Nike React Infinity Run",
+    "price": 15999,
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Мужчины",
+    "description": "Защита от травм и максимальная энергоотдача для бегунов."
+  },
+  {
+    "id": 6,
+    "name": "Nike Zoom Pegasus",
+    "price": 9999,
+    "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Дети",
+    "description": "Лёгкие и быстрые для юных спортсменов."
+  },
+  {
+    "id": 7,
+    "name": "Nike Dunk Low Retro",
+    "price": 13999,
+    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Унисекс",
+    "description": "Ретро стиль для улицы"
+  },
+  {
+    "id": 8,
+    "name": "Nike Air Zoom Pegasus 38",
+    "price": 12499,
+    "image": "https://images.unsplash.com/photo-1549298916-f52d724204b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Мужчины",
+    "description": "Для бега на длинные дистанции"
+  },
+  {
+    "id": 9,
+    "name": "Nike Revolution 6",
+    "price": 6999,
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Женщины",
+    "description": "Лёгкие и дышащие"
+  },
+  {
+    "id": 10,
+    "name": "Nike Court Vision Low",
+    "price": 8999,
+    "image": "https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "Дети",
+    "description": "Для тенниса и повседневной носки"
+  },
+  {
+  "id": 11,
+  "name": "Nike Air Jordan 1",
+  "price": 18999,
+  "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  "category": "Мужчины",
+  "description": "Легендарные баскетбольные кроссовки"
+},
+{
+  "id": 12,
+  "name": "Nike Air Max 97",
+  "price": 15999,
+  "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  "category": "Унисекс",
+  "description": "Волновой дизайн, футуристичный стиль"
+},
+{
+  "id": 13,
+  "name": "Nike x Off-White",
+  "price": 34999,
+  "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  "category": "Унисекс",
+  "description": "Коллаборация с Вирджилом Абло",
+  "featured": true
+},
+{
+  "id": 14,
+  "name": "Nike MAG Back to the Future",
+  "price": 99999,
+  "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  "category": "Унисекс",
+  "description": "Легендарные кроссовки из фильма",
+  "featured": true
+}
+]
