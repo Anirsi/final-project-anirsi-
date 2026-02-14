@@ -1,0 +1,266 @@
+[
+  {
+    "id": 101,
+    "name": "Nike Air Max 270",
+    "price": 12990,
+    "image": "../sneaker-shop/images/men/men/5203986146721992096.jpg",
+    "category": "men",
+    "description": "Беговые, амортизация Air, чёрные"
+  },
+  {
+    "id": 102,
+    "name": "Adidas Ultraboost 22",
+    "price": 14990,
+    "image": "../sneaker-shop/images/men/men/5203986146721992090.jpg",
+    "category": "men",
+    "description": "Беговые, технология Boost"
+  },
+  {
+    "id": 103,
+    "name": "Air Jordan 1 Retro",
+    "price": 18990,
+    "image": "../sneaker-shop/images/men/men/5203986146721992091.jpg",
+    "category": "men",
+    "description": "Баскетбольные, культовые"
+  },
+  {
+    "id": 104,
+    "name": "Nike Dunk Low",
+    "price": 11490,
+    "image": "../sneaker-shop/images/men/men/5203986146721992092.jpg",
+    "category": "men",
+    "description": "Скейтерские, синие"
+  },
+  {
+    "id": 105,
+    "name": "Adidas Yeezy 350",
+    "price": 24990,
+    "image": "../sneaker-shop/images/men/men/5224529374730720533.jpg",
+    "category": "men",
+    "description": "Культовые, технология Boost"
+  },
+  {
+    "id": 106,
+    "name": "Puma RS-X",
+    "price": 10990,
+    "image": "../sneaker-shop/images/men/men/5224529374730720578.jpg",
+    "category": "men",
+    "description": "Ретро-футуризм, яркие"
+  },
+  {
+    "id": 107,
+    "name": "New Balance 990v5",
+    "price": 16990,
+    "image": "../sneaker-shop/images/men/men/5203986146721992097.jpg",
+    "category": "men",
+    "description": "Сделано в США, комфорт"
+  },
+  {
+    "id": 108,
+    "name": "Reebok Nano X1",
+    "price": 10490,
+    "image": "../sneaker-shop/images/men/men/5203986146721992100.jpg",
+    "category": "men",
+    "description": "Для кроссфита, стабильность"
+  },
+  {
+    "id": 109,
+    "name": "Converse Pro Leather",
+    "price": 8990,
+    "image": "../sneaker-shop/images/men/men/5203986146721992101.jpg",
+    "category": "men",
+    "description": "Кожаные, баскетбольные"
+  },
+  {
+    "id": 110,
+    "name": "Vans Sk8-Hi",
+    "price": 7490,
+    "image": "../sneaker-shop/images/men/men/5203986146721992102.jpg",
+    "category": "men",
+    "description": "Высокие, скейтерские, чёрные"
+  },
+  {
+    "id": 111,
+    "name": "Nike Air Force 1",
+    "price": 9990,
+    "image": "../sneaker-shop/images/men/men/5224529374730720577.jpg",
+    "category": "men",
+    "description": "Классика, белые, кожаные"
+  },
+  {
+    "id": 112,
+    "name": "Adidas Superstar",
+    "price": 8490,
+    "image": "../sneaker-shop/images/men/men/5203986146721992111.jpg",
+    "category": "men",
+    "description": "Классика, ракушка, чёрно-белые"
+  },
+  {
+    "id": 201,
+    "name": "Adidas Superstar",
+    "price": 8990,
+    "image": "images/women/5203986146721992079.jpg",
+    "category": "women",
+    "description": "Классические, кожаные, белые"
+  },
+  {
+    "id": 202,
+    "name": "Nike Air Force 1",
+    "price": 10490,
+    "image": "images/women/5208440135182128201.jpg",
+    "category": "women",
+    "description": "Белая классика, баскетбольные"
+  },
+  {
+    "id": 203,
+    "name": "Puma Cali Dream",
+    "price": 7990,
+    "image": "images/women/5203986146721992084.jpg",
+    "category": "women",
+    "description": "Пастельные цвета, повседневные"
+  },
+  {
+    "id": 204,
+    "name": "Reebok Classic Leather",
+    "price": 6990,
+    "image": "images/women/5208440135182128202.jpg",
+    "category": "women",
+    "description": "Ретро стиль, кожа, комфорт"
+  },
+  {
+    "id": 205,
+    "name": "Nike Blazer Mid",
+    "price": 9490,
+    "image": "images/women/5208440135182128191.jpg",
+    "category": "women",
+    "description": "Высокие, скейтерские, бежевые"
+  },
+  {
+    "id": 206,
+    "name": "Adidas Gazelle",
+    "price": 8290,
+    "image": "images/women/5203986146721992088.jpg",
+    "category": "women",
+    "description": "Розовые, замша, ретро"
+  },
+  {
+    "id": 207,
+    "name": "Converse Chuck Taylor",
+    "price": 5990,
+    "image": "images/women/5203986146721992089.jpg",
+    "category": "women",
+    "description": "Красные, высокие, классика"
+  },
+  {
+    "id": 208,
+    "name": "Vans Old Skool",
+    "price": 6490,
+    "image": "images/women/5203986146721992093.jpg",
+    "category": "women",
+    "description": "Чёрно-белые, скейтерские"
+  },
+  {
+    "id": 209,
+    "name": "Nike Joyride Run",
+    "price": 11990,
+    "image": "images/women/5203986146721992098.jpg",
+    "category": "women",
+    "description": "Беговые, технология Joyride"
+  },
+  {
+    "id": 210,
+    "name": "Adidas Ultraboost 21",
+    "price": 14990,
+    "image": "images/women/5203986146721992110.jpg",
+    "category": "women",
+    "description": "Беговые, технология Boost"
+  },
+  {
+    "id": 211,
+    "name": "Puma RS-X Toys",
+    "price": 10990,
+    "image": "../sneaker-shop/images/women/5224529374730720340.jpg",
+    "category": "women",
+    "description": "Яркие, ретро-футуризм"
+  },
+  {
+    "id": 212,
+    "name": "New Balance 574",
+    "price": 8790,
+    "image": "images/women/5206188335368442759.jpg",
+    "category": "women",
+    "description": "Серые, повседневные, комфорт"
+  },
+  {
+    "id": 301,
+    "name": "Puma RS-X",
+    "price": 11490,
+    "image": "images/interesting/5224529374730720700.jpg",
+    "category": "special",
+    "description": "Унисекс, стиль ретро, яркие цвета"
+  },
+  {
+    "id": 302,
+    "name": "Adidas Yeezy 700",
+    "price": 25990,
+    "image": "images/interesting/5203986146721992080.jpg",
+    "category": "special",
+    "description": "Эксклюзивная модель, ограниченный выпуск"
+  },
+  {
+    "id": 303,
+    "name": "Nike x Off-White",
+    "price": 34990,
+    "image": "images/interesting/5224529374730720696.jpg",
+    "category": "special",
+    "description": "Коллаборация с Вирджилом Абло"
+  },
+  {
+    "id": 304,
+    "name": "Air Jordan 4 Retro",
+    "price": 21990,
+    "image": "images/interesting/5224529374730720725.jpg",
+    "category": "special",
+    "description": "Редкий цвет, лимитированная серия"
+  },
+  {
+    "id": 305,
+    "name": "Adidas NMD R1",
+    "price": 13990,
+    "image": "images/interesting/5224529374730720657.jpg",
+    "category": "special",
+    "description": "Технологичный дизайн, уникальный материал"
+  },
+  {
+    "id": 306,
+    "name": "Balenciaga Triple S",
+    "price": 54990,
+    "image": "images/interesting/5203986146721992114.jpg",
+    "category": "special",
+    "description": "Дизайнерская модель, массивная подошва"
+  },
+  {
+    "id": 307,
+    "name": "ASICS Gel-Lyte III",
+    "price": 12990,
+    "image": "images/interesting/5206188335368442757.jpg",
+    "category": "special",
+    "description": "Японский дизайн, анатомическая форма"
+  },
+  {
+    "id": 308,
+    "name": "New Balance 327",
+    "price": 11990,
+    "image": "images/interesting/5224529374730720656.jpg",
+    "category": "special",
+    "description": "Ретро-стиль, яркие акценты"
+  },
+  {
+    "id": 309,
+    "name": "Hoka One One",
+    "price": 15990,
+    "image": "images/interesting/5208440135182127993.jpg",
+    "category": "special",
+    "description": "Максимальная амортизация, ультралёгкие"
+  }
+]
